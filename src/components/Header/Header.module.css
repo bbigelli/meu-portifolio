@@ -1,0 +1,124 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-color);
+  box-shadow: var(--shadow);
+  z-index: 1000;
+  transition: var(--transition);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeToggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: var(--transition);
+  color: var(--text-color);
+}
+
+.themeToggle:hover {
+  background: var(--card-bg);
+  transform: scale(1.1);
+}
+
+.menuMobile {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menuMobile span {
+  width: 2rem;
+  height: 0.25rem;
+  background: var(--text-color);
+  border-radius: 10px;
+  transition: var(--transition);
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navLinks li button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.navLinks li button:hover {
+  background: var(--card-bg);
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .menuMobile {
+    display: flex;
+  }
+
+  .navLinks {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--bg-color);
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+  }
+
+  .navLinks.aberto {
+    display: flex;
+  }
+
+  .navLinks li {
+    width: 100%;
+  }
+
+  .navLinks li button {
+    width: 100%;
+    text-align: left;
+  }
+}

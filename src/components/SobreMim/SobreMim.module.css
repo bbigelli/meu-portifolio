@@ -1,0 +1,86 @@
+.sobre {
+  padding: 5rem 0;
+  background: var(--bg-color);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sobreContent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.fotoContainer {
+  text-align: center;
+}
+
+.foto {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.foto:hover {
+  transform: scale(1.05);
+}
+
+.sobreTexto p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.infoPessoal {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.infoItem {
+  padding: 0.5rem;
+  background: var(--card-bg);
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.infoItem:hover {
+  transform: translateX(5px);
+}
+
+.infoLabel {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .sobreContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .foto {
+    max-width: 200px;
+  }
+
+  .infoPessoal {
+    grid-template-columns: 1fr;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}

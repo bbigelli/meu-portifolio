@@ -1,0 +1,274 @@
+.projetos {
+  padding: 5rem 0;
+  background: var(--bg-color);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #666;
+}
+
+.projetosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.projetoCard {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.projetoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.projetoImagem {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.projetoImagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.projetoCard:hover .projetoImagem img {
+  transform: scale(1.1);
+}
+
+.projetoInfo {
+  padding: 1.5rem;
+}
+
+.projetoTitulo {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.projetoDescricao {
+  font-size: 0.95rem;
+  color: var(--text-color);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.projetoTechs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.techBadge {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.projetoAcoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnDetalhes {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btnDetalhes:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.projetoLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.projetoLink {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.projetoLink:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 2rem;
+}
+
+.modalConteudo {
+  background: var(--bg-color);
+  border-radius: 1rem;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  padding: 2rem;
+}
+
+.modalFechar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.modalFechar:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.modalImagem {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.modalTitulo {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.modalData {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.modalDescricao {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.modalTechs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.modalTech {
+  background: var(--card-bg);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--primary-color);
+}
+
+.modalLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.modalLink {
+  text-decoration: none;
+}
+
+.btnPrimary, .btnSecondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+}
+
+.btnPrimary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.btnPrimary:hover, .btnSecondary:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .projetosGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .modalConteudo {
+    padding: 1rem;
+  }
+
+  .modalTitulo {
+    font-size: 1.5rem;
+  }
+
+  .modalLinks {
+    flex-direction: column;
+  }
+
+  .modalLink {
+    width: 100%;
+  }
+
+  .btnPrimary, .btnSecondary {
+    width: 100%;
+  }
+}
