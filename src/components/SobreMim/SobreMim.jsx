@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './SobreMim.module.css';
-import fotoPerfil from '../../assets/images/profile-photo.jpg';
+import fotoPerfil from '../../assets/images/FotoProfissional.webp';
 
 const SobreMim = () => {
   return (
@@ -17,16 +17,10 @@ const SobreMim = () => {
           </div>
           <div className={styles.sobreTexto}>
             <p>
-              Sou um desenvolvedor web com 1 ano de experiência, apaixonado por criar 
-              soluções inovadoras e experiências digitais incríveis. Minha jornada na 
-              tecnologia começou com curiosidade e se transformou em uma carreira 
-              dedicada ao desenvolvimento de aplicações web modernas e eficientes.
+              Desenvolvedor Full Stack com 1 ano de experiência prática na criação de aplicações web completas — do backend ao frontend. Especialista em transformar ideias em soluções digitais funcionais, responsivas e com foco na melhor experiência do usuário.
             </p>
             <p>
-              Minha filosofia é escrever código limpo, testável e de fácil manutenção, 
-              sempre seguindo as melhores práticas de desenvolvimento. Estou constantemente 
-              aprendendo novas tecnologias e buscando desafios que me permitam crescer 
-              profissionalmente.
+              Minha abordagem combina lógica sólida no backend com interfaces intuitivas no frontend, sempre priorizando código limpo, performance e boas práticas de arquitetura. Estou em constante evolução, buscando desafios que me tirem da zona de conforto e me permitam entregar soluções reais com tecnologia.
             </p>
             
             <div className={styles.infoPessoal}>

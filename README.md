@@ -6,7 +6,7 @@
 
 Meu portfólio profissional desenvolvido com React, apresentando meus projetos, habilidades e experiências como desenvolvedor Full Stack.
 
-🔗 **Acesse online:** [bruno-bigelli-portfolio.vercel.app](https://brunobigelli-portifolio.vercel.app/)
+🔗 **Acesse online:** [brunobigelliportifolio.vercel.app](https://brunobigelliportifolio.vercel.app/)
 
 ---
 
@@ -71,7 +71,7 @@ Abra http://localhost:3000 para visualizar o projeto.
 O projeto está hospedado na Vercel e é atualizado automaticamente a cada push no repositório.
 
 Acessar Versão Online
-🔗 Link do projeto: https://bruno-bigelli-portfolio.vercel.app
+🔗 Link do projeto: https://brunobigelliportifolio.vercel.app/
    
 
 

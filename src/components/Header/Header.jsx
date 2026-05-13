@@ -41,6 +41,7 @@ const Header = () => {
 
         <ul className={`${styles.navLinks} ${menuAberto ? styles.aberto : ''}`}>
           <li><button onClick={() => scrollToSection('home')}>Início</button></li>
+          <li><button onClick={() => scrollToSection('sobre')}>Sobre Mim</button></li>
           <li><button onClick={() => scrollToSection('projetos')}>Projetos</button></li>
           <li><button onClick={() => scrollToSection('habilidades')}>Habilidades</button></li>
           <li><button onClick={() => scrollToSection('contato')}>Contato</button></li>
