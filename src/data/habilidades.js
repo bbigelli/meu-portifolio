@@ -5,8 +5,8 @@ export const habilidades = [
 ];
 
 export const niveisProficiencia = [
-  { nome: "React", nivel: 90 },
-  { nome: "JavaScript", nivel: 85 },
-  { nome: "Node.js", nivel: 75 },
+  { nome: "React", nivel: 93 },
+  { nome: "JavaScript", nivel: 90 },
+  { nome: "Node.js", nivel: 80 },
   { nome: "HTML/CSS", nivel: 95 }
 ];
