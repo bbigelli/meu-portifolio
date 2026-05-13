@@ -13,26 +13,29 @@ const Hero = () => {
     <section id="home" className={styles.hero}>
       <div className="container">
         <div className={styles.heroContent}>
+          <p className={styles.heroGreeting}>Olá, eu sou</p>
           <h1 className={styles.heroTitle}>
-            Olá, eu sou <span className={styles.highlight}>Bruno Bigelli</span>
+            <span className={styles.highlight}>Bruno Bigelli</span>
           </h1>
-          <h2 className={styles.heroSubtitle}>Desenvolvedor Web Full Stack</h2>
+          <h2 className={styles.heroSubtitle}>  
+            Desenvolvedor Full Stack Python
+          </h2>
           <p className={styles.heroDescription}>
-            Transformando ideias em soluções digitais através de código limpo 
-            e experiências incríveis para o usuário.
+            Crio interfaces responsivas e rápidas com projetos reais em produção —
+            do briefing ao deploy.
           </p>
           <div className={styles.heroButtons}>
-            <button 
-              onClick={() => scrollToSection('contato')} 
+            <button
+              onClick={() => scrollToSection('projetos')}
               className={styles.btnPrimary}
             >
-              Entre em Contato
+              Ver Projetos
             </button>
-            <button 
-              onClick={() => scrollToSection('projetos')} 
+            <button
+              onClick={() => scrollToSection('contato')}
               className={styles.btnSecondary}
             >
-              Ver Projetos
+              Entre em Contato
             </button>
           </div>
         </div>

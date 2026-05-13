@@ -1,77 +1,91 @@
-# 🚀 Portfólio - Bruno Bigelli
+# Bruno Bigelli — Portfólio
 
-![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react)
-![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)](https://SEU-DOMINIO.vercel.app)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Meu portfólio profissional desenvolvido com React, apresentando meus projetos, habilidades e experiências como desenvolvedor Full Stack.
+Portfólio profissional desenvolvido com React 18 + Vite, apresentando projetos reais,
+habilidades técnicas e canais de contato.
 
 🔗 **Acesse online:** [brunobigelliportifolio.vercel.app](https://brunobigelliportifolio.vercel.app/)
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre mim
 
-Este portfólio foi desenvolvido para apresentar minha trajetória como desenvolvedor, destacando os principais projetos desenvolvidos durante minha formação e experiências profissionais. O design é moderno, responsivo e conta com modo claro/escuro.
+Desenvolvedor Front-end com foco em React, construindo interfaces responsivas e
+projetos reais em produção. Buscando oportunidade como Desenvolvedor Júnior.
 
-### ✨ Funcionalidades
+📍 São Paulo, SP &nbsp;|&nbsp; 📧 bbigelli@hotmail.com &nbsp;|&nbsp;
+[LinkedIn](https://www.linkedin.com/in/brunobigelli) &nbsp;|&nbsp;
+[GitHub](https://github.com/bbigelli)
 
-- **Design Responsivo** - Funciona perfeitamente em dispositivos móveis, tablets e desktops
-- **Modo Claro/Escuro** - Alternância de tema para melhor experiência visual
-- **Projetos Interativos** - Cards com detalhes completos de cada projeto
-- **Formulário de Contato** - Integração com Formspree para receber mensagens
-- **Animações Suaves** - Transições e efeitos visuais elegantes
+## Funcionalidades
 
-### 🛠️ Tecnologias Utilizadas
+- **Modo claro/escuro** — alternância de tema via Context API
+- **Projetos com filtros** — cards interativos com detalhes de cada projeto
+- **Formulário de contato** — integração com Formspree, sem backend
+- **Design responsivo** — mobile-first, funciona em todos os dispositivos
+- **Animações suaves** — transições CSS para melhor experiência visual
 
-- **React** - Biblioteca principal para construção da interface
-- **CSS Modules** - Estilização modular e isolada por componente
-- **Context API** - Gerenciamento de estado global (tema)
-- **Formspree** - API para envio de formulários sem backend
+## Stack
+
+| Tecnologia     | Uso                                      |
+| -------------- | ---------------------------------------- |
+| React 18       | Construção da interface                  |
+| Vite           | Bundler e servidor de desenvolvimento    |
+| CSS Modules    | Estilização escopada por componente      |
+| Context API    | Gerenciamento de estado global (tema)    |
+| Formspree      | Envio de formulário sem backend          |
+| Vercel         | Deploy contínuo e hospedagem             |
 
 ---
 
+## Como rodar localmente
+
+**Pré-requisitos:** Node.js 18+
+
+```bash
+# Clone o repositório
+git clone https://github.com/bbigelli/meu-portifolio.git
+cd meu-portifolio
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
+
+Acesse [http://localhost:5173](http://localhost:5173) no navegador.
+
+### Variável de ambiente (formulário de contato)
+
+Crie um arquivo `.env` na raiz:
+
+```env
+VITE_FORM_ID=seu_form_id_do_formspree
+```
+
+> Crie uma conta gratuita em [formspree.io](https://formspree.io) para obter seu `FORM_ID`.
 
 ---
 
-## 💻 Como Rodar Localmente
+## Projetos em destaque
 
-Siga estes passos para executar o projeto em sua máquina:
+| Projeto        | Descrição                                            | Stack                    | Link |
+| -------------- | ---------------------------------------------------- | ------------------------ | ---- |
+| Vitta Terapias | Site profissional para clínica de massagens terapêuticas | React, Vite, CSS Modules | [Ver site](https://vitta-terapias.vercel.app) |
 
-### Pré-requisitos
-
-- Node.js (versão 16 ou superior)
-- npm ou yarn
-
-### Passo a Passo
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/bbigelli/meu-portifolio.git
-   cd meu-portifolio
-
-2. Instale as dependências
-   npm install
-   # ou
-   yarn install
-
-3. Configure as variáveis de ambiente
-   Crie um arquivo .env na raiz do projeto:
-   REACT_APP_FORM_ID=seu_form_id_do_formspree
-   Nota: Para o formulário de contato funcionar, você precisa criar uma conta gratuita em formspree.io e obter seu FORM_ID.
-
-4. Inicie o servidor de desenvolvimento
-   npm start
-   # ou
-   yarn start
-   
-6. Acesse no navegador
-Abra http://localhost:3000 para visualizar o projeto.
-
-O projeto está hospedado na Vercel e é atualizado automaticamente a cada push no repositório.
+---
 
 Acessar Versão Online
 🔗 Link do projeto: https://brunobigelliportifolio.vercel.app/
+
+## Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
    
 
 
