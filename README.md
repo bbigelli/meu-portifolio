@@ -47,8 +47,8 @@ Siga estes passos para executar o projeto em sua máquina:
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/bbigelli/bruno-bigelli-portfolio.git
-   cd bruno-bigelli-portfolio
+   git clone https://github.com/bbigelli/meu-portifolio.git
+   cd meu-portifolio
 
 2. Instale as dependências
    npm install
