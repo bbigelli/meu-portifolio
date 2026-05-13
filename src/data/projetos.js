@@ -1,4 +1,4 @@
-import vittaImage from '../assets/images/site-vitta.png';
+import vittaImage from '../assets/images/Site-Vitta.webp';
 
 export const projetos = [
   {
