@@ -77,6 +77,7 @@ VITE_FORM_ID=seu_form_id_do_formspree
 | Projeto        | Descrição                                            | Stack                    | Link |
 | -------------- | ---------------------------------------------------- | ------------------------ | ---- |
 | Vitta Terapias | Site profissional para clínica de massagens terapêuticas | React, Vite, CSS Modules | [Ver site](https://vitta-terapias.vercel.app) |
+| Artelli Artesatanos | Site profissional para encomenda de artesatanos | React, Vite, PostgreSql, Typescript, Axios, FastAPI, JWT | [Ver site](https://artelli-frontend.onrender.com/) ||
 
 ---
 
