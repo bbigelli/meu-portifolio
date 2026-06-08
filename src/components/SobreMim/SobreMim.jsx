@@ -30,9 +30,9 @@ const SobreMim = () => {
             </p>
             <p className={styles.sobreParagrafo}>
               Estou em busca de oportunidade como{' '}
-              <strong>Desenvolvedor Full Stack Júnior, </strong>
-              <strong>Desenvolvedor Back-end Júnior, </strong>
-              <strong>Desenvolvedor Front-end Júnior</strong>, onde possa evoluir e
+              <strong>Desenvolvedor Full Stack, </strong>
+              <strong>Desenvolvedor Back-end, </strong>
+              <strong>Desenvolvedor Front-end</strong>, onde possa evoluir e
               contribuir com times ágeis.
             </p>
 

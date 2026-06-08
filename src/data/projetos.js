@@ -1,4 +1,5 @@
 import vittaImage from '../assets/images/Site-Vitta.webp';
+import artelliImage from '../assets/images/Site-Artelli.webp';
 
 export const projetos = [
   {
@@ -14,24 +15,16 @@ export const projetos = [
   },
   {
     id: 2,
-    titulo: "Micro Frontends - Sistema de Pedidos",
-    descricao: "Implementação prática de Micro Frontends utilizando Webpack Module Federation",
-    descricaoCompleta: "Este projeto demonstra a implementação de Micro Frontends utilizando Webpack Module Federation. A aplicação é dividida em três partes independentes que funcionam juntas como um sistema de pedidos completo.",
-    tecnologias: ["React", "Webpack", "Module Federation", "Babel"],
-    imagem: "https://via.placeholder.com/400x200/764ba2/ffffff?text=Micro+Frontends",
-    repo: "https://github.com/bbigelli/projeto-micro-frontend",
-    demo: "",
+    titulo: "Artelli Artesanato — E-commerce Full Stack",
+    descricao: "Plataforma completa de e-commerce para artesanato personalizado com autenticação JWT, painel admin e checkout via WhatsApp.",
+    descricaoCompleta: "Projeto full stack desenvolvido do zero para a Artelli Artesanato, uma marca de peças artesanais feitas à mão. O backend foi construído com FastAPI e PostgreSQL, contando com autenticação JWT, CRUD completo de produtos e categorias, gerenciamento de usuários com níveis de permissão (admin/cliente) e seed automático de dados. O frontend em React 18 com TypeScript entrega uma landing page premium com hero section, depoimentos, FAQ e seção de benefícios. O catálogo conta com filtros por categoria, página de detalhe com galeria de imagens e campo de personalização por produto. O fluxo de checkout redireciona o cliente ao WhatsApp com o pedido já formatado. O painel administrativo permite criar, editar e excluir produtos e gerenciar usuários em tempo real. O projeto é totalmente responsivo, orquestrado com Docker Compose e preparado para deploy no Render.",
+    tecnologias: ["React", "TypeScript", "FastAPI", "PostgreSQL", "SQLAlchemy", "JWT", "Docker", "Vite", "Axios"],
+    imagem: artelliImage,
+    repo: "https://github.com/bbigelli/artelli-artesatano",
+    demo: "https://artelli-frontend.onrender.com/",
     data: "2026"
   },
   {
-    id: 3,
-    titulo: "Otimização de Performance Web",
-    descricao: "Projeto desenvolvido para demonstrar técnicas de otimização de performance",
-    descricaoCompleta: "O projeto foi propositalmente desenvolvido com más práticas de performance para depois ser otimizado, demonstrando o impacto real de cada técnica de otimização.",
-    tecnologias: ["HTML5", "CSS3", "JavaScript", "Node.js", "Lighthouse"],
-    imagem: "https://via.placeholder.com/400x200/06b6d4/ffffff?text=Performance+Web",
-    repo: "https://github.com/bbigelli/projeto-otimizacao-performance",
-    demo: "",
-    data: "2026"
+    
   },
 ];
