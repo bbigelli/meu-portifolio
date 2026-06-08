@@ -19,11 +19,11 @@ const SobreMim = () => {
 
           <div className={styles.sobreTexto}>
             <p className={styles.sobreParagrafo}>
-              Sou desenvolvedor Full Stack com foco em Front-end React,
+              Sou desenvolvedor Full Stack Python com foco em React e FastAPI,
               construindo interfaces responsivas e projetos reais — do briefing ao deploy.
             </p>
             <p className={styles.sobreParagrafo}>
-              Tenho experiência prática com <strong>React, JavaScript, CSS Modules</strong> e
+              Tenho experiência prática com <strong>React, JavaScript, CSS Modules, PostgreSQL, FastAPI,</strong> e
               integrações com APIs externas, sempre com atenção a performance e experiência
               do usuário. Já entrego sites em produção com foco em resultado: agendamentos,
               geração de contatos e presença digital para pequenos negócios.
