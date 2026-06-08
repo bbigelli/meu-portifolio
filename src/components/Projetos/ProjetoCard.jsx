@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './Projetos.module.css';
 
 const ProjetoCard = ({ projeto, onVerDetalhes }) => {
+  // Verificação de segurança para tecnologias
+  const tecnologias = projeto.tecnologias || [];
+  
   return (
     <div className={styles.projetoCard}>
       <div className={styles.projetoImagem}>
@@ -12,11 +15,12 @@ const ProjetoCard = ({ projeto, onVerDetalhes }) => {
         <p className={styles.projetoDescricao}>{projeto.descricao}</p>
         
         <div className={styles.projetoTechs}>
-          {projeto.tecnologias.slice(0, 3).map(tech => (
+          {/* CORREÇÃO AQUI: usa a variável com fallback */}
+          {tecnologias.slice(0, 3).map(tech => (
             <span key={tech} className={styles.techBadge}>{tech}</span>
           ))}
-          {projeto.tecnologias.length > 3 && (
-            <span className={styles.techBadge}>+{projeto.tecnologias.length - 3}</span>
+          {tecnologias.length > 3 && (
+            <span className={styles.techBadge}>+{tecnologias.length - 3}</span>
           )}
         </div>
         

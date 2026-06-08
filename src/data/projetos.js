@@ -23,8 +23,5 @@ export const projetos = [
     repo: "https://github.com/bbigelli/artelli-artesatano",
     demo: "https://artelli-frontend.onrender.com/",
     data: "2026"
-  },
-  {
-    
-  },
+  }
 ];
