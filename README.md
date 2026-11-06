@@ -5,8 +5,8 @@
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)](https://SEU-DOMINIO.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Portfólio profissional desenvolvido com React 18 + Create React App, apresentando projetos reais,
-habilidades técnicas e canais de contato.
+Portfólio profissional de desenvolvedor Full Stack, construído com React 18 + Create
+React App, apresentando projetos reais, habilidades técnicas e canais de contato.
 
 🔗 **Acesse online:** [brunobigelliportifolio.vercel.app](https://brunobigelliportifolio.vercel.app/)
 
@@ -14,8 +14,9 @@ habilidades técnicas e canais de contato.
 
 ## Sobre mim
 
-Desenvolvedor Front-end com foco em React, construindo interfaces responsivas e
-projetos reais em produção. Buscando oportunidade como Desenvolvedor Júnior.
+Desenvolvedor Full Stack, construindo projetos reais em produção — do front-end em
+React ao back-end em Python e FastAPI, do briefing ao deploy. Buscando oportunidade
+como Desenvolvedor Júnior.
 
 📍 São Paulo, SP &nbsp;|&nbsp; 📧 bbigelli@hotmail.com &nbsp;|&nbsp;
 [LinkedIn](https://www.linkedin.com/in/brunobigelli) &nbsp;|&nbsp;
