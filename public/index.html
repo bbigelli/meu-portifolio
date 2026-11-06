@@ -12,29 +12,43 @@
     />
     <meta name="keywords" content="desenvolvedor front-end, React, JavaScript, CSS, portfólio, desenvolvedor júnior, São Paulo" />
     <meta name="author" content="Bruno Bigelli" />
-    <link rel="canonical" href="https://bbigelli.vercel.app/" />
+    <link rel="canonical" href="https://brunobigelliportifolio.vercel.app/" />
 
     <!-- Open Graph — como o link aparece no LinkedIn, WhatsApp, etc. -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://bbigelli.vercel.app/" />
+    <meta property="og:url" content="https://brunobigelliportifolio.vercel.app/" />
     <meta property="og:title" content="Bruno Bigelli | Desenvolvedor Front-end React" />
     <meta property="og:description" content="Desenvolvedor Front-end com foco em React. Projetos reais em produção, interfaces responsivas e código limpo." />
-    <meta property="og:image" content="https://bbigelli.vercel.app/og-image.png" />
-    <!-- Crie uma imagem 1200x630px e coloque em /public/og-image.png -->
+    <!-- Provisório: logo512.png é quadrado e o preview corta as laterais.
+         Para o ideal, criar uma imagem 1200x630 em /public/og-image.png e
+         apontar as duas metas abaixo para ela. -->
+    <meta property="og:image" content="https://brunobigelliportifolio.vercel.app/logo512.png" />
+    <meta property="og:image:alt" content="Portfólio de Bruno Bigelli, desenvolvedor Front-end React" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content="Portfólio Bruno Bigelli" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bruno Bigelli | Desenvolvedor Front-end React" />
+    <meta name="twitter:description" content="Desenvolvedor Front-end com foco em React. Projetos reais em produção, interfaces responsivas e código limpo." />
+    <meta name="twitter:image" content="https://brunobigelliportifolio.vercel.app/logo512.png" />
+
+    <!-- Ícones e manifest -->
+    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <!-- Cor da barra do navegador no mobile -->
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="theme-color" content="#667eea" />
 
     <!-- Permite indexação pelo Google -->
     <meta name="robots" content="index, follow" />
   </head>
   <body>
+    <noscript>
+      Este portfólio precisa de JavaScript para funcionar. Ative o JavaScript
+      no seu navegador para visualizar o conteúdo.
+    </noscript>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

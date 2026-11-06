@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bruno Bigelli",
+  "name": "Portfólio Bruno Bigelli — Desenvolvedor Front-end React",
+  "description": "Portfólio de Bruno Bigelli, desenvolvedor Front-end com foco em React.",
+  "lang": "pt-BR",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +22,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#667eea",
   "background_color": "#ffffff"
 }
