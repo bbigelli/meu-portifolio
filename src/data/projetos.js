@@ -1,5 +1,6 @@
 import vittaImage from '../assets/images/Site-Vitta.webp';
 import artelliImage from '../assets/images/Site-Artelli.webp';
+import landingInfoprodutoImage from '../assets/images/Capa-Landing-Infoproduto.svg';
 
 export const projetos = [
   {
@@ -22,6 +23,16 @@ export const projetos = [
     imagem: artelliImage,
     repo: "https://github.com/bbigelli/artelli-artesatano",
     demo: "https://artelli-frontend.onrender.com/",
+    data: "2026"
+  },
+  {
+    id: 3,
+    titulo: "Landing Page de Infoproduto — WordPress + Elementor",
+    descricao: "Landing page de venda para curso online, com 9 seções construídas para derrubar objeção por objeção. Template do Elementor gerado por script, child theme próprio, Pixel da Meta com eventos de conversão e remoção de 110KB do caminho crítico. Contraste da paleta medido pela fórmula da WCAG 2.1, não estimado.",
+    descricaoCompleta: "Peça de demonstração que reproduz o pedido mais comum de quem contrata freelancer para WordPress: landing page de infoproduto para receber tráfego pago. A página tem 9 seções — título principal, benefícios, conteúdo do curso, instrutor, depoimentos, garantia, oferta, perguntas frequentes e fechamento —, e cada uma foi escrita para derrubar uma objeção específica de compra, na ordem em que ela aparece na cabeça de quem está decidindo. O diferencial do projeto está em três decisões de engenharia. A primeira: o template do Elementor é gerado por um script Node sem dependências, que separa o texto (um arquivo JSON de conteúdo) da estrutura (o gerador). Trocar o JSON e rodar o script produz a landing de outro cliente, com a mesma arquitetura. O gerador valida o que produz — IDs únicos, estrutura dos nós e chaves obrigatórias — e é determinístico: rodar duas vezes gera exatamente o mesmo arquivo. A segunda: os widgets carregam apenas classes semânticas, e todo o visual vive no CSS do child theme. O caminho comum no Elementor é gravar tipografia e espaçamento dentro das configurações de cada widget, o que produz um JSON enorme e faz o Elementor emitir um arquivo CSS por página. Com as classes, o template ficou em 51KB e o estilo em um único arquivo cacheável — e o cliente continua editando cada texto normalmente dentro do Elementor. A terceira: a página foi construída sem nenhum widget de ícone. Os check das listas e os seis ícones dos cards são SVG inline em background-image, e as estrelas dos depoimentos usam caractere unicode. Isso permitiu remover o Font Awesome com segurança no functions.php, junto com o script de emoji, o CSS do Gutenberg e o wp-embed: cerca de 110KB retirados do caminho crítico. A Inter é servida localmente e o carregamento de Google Fonts do Elementor fica desligado, eliminando duas conexões externas. A acessibilidade foi tratada com medição, não com estimativa: um script aplica a fórmula oficial de contraste da WCAG 2.1 em cada par de cor da paleta. Duas decisões saíram dele — o âmbar usado nos selos mede 2,15:1 sobre branco e foi restrito a fundo escuro, e o verde clássico do WhatsApp foi descartado porque ícone branco sobre ele mede 1,98:1, abaixo do mínimo de 3:1 que a norma exige para componente gráfico. O Pixel da Meta tem o ID fora do repositório, em constante do wp-config, e dispara os eventos de conversão por um listener delegado: qualquer link de checkout registra InitiateCheckout e qualquer link de WhatsApp registra Contact, inclusive em botões criados depois. O produto, o instrutor e os depoimentos são fictícios, e a própria página declara isso em aviso visível no rodapé e na seção de depoimentos.",
+    tecnologias: ["WordPress", "Elementor", "PHP", "CSS", "JavaScript", "Node.js", "Meta Pixel", "WCAG 2.1"],
+    imagem: landingInfoprodutoImage,
+    repo: "https://github.com/bbigelli/demo-landing-infoproduto",
     data: "2026"
   }
 ];

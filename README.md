@@ -1,11 +1,11 @@
 # Bruno Bigelli — Portfólio
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Create React App](https://img.shields.io/badge/Create%20React%20App-5-09D3AC?style=flat-square&logo=createreactapp)](https://create-react-app.dev/)
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)](https://SEU-DOMINIO.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Portfólio profissional desenvolvido com React 18 + Vite, apresentando projetos reais,
+Portfólio profissional desenvolvido com React 18 + Create React App, apresentando projetos reais,
 habilidades técnicas e canais de contato.
 
 🔗 **Acesse online:** [brunobigelliportifolio.vercel.app](https://brunobigelliportifolio.vercel.app/)
@@ -34,7 +34,7 @@ projetos reais em produção. Buscando oportunidade como Desenvolvedor Júnior.
 | Tecnologia     | Uso                                      |
 | -------------- | ---------------------------------------- |
 | React 18       | Construção da interface                  |
-| Vite           | Bundler e servidor de desenvolvimento    |
+| Create React App | Bundler e servidor de desenvolvimento  |
 | CSS Modules    | Estilização escopada por componente      |
 | Context API    | Gerenciamento de estado global (tema)    |
 | Formspree      | Envio de formulário sem backend          |
@@ -55,17 +55,17 @@ cd meu-portifolio
 npm install
 
 # Inicie o servidor de desenvolvimento
-npm run dev
+npm start
 ```
 
-Acesse [http://localhost:5173](http://localhost:5173) no navegador.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
 ### Variável de ambiente (formulário de contato)
 
 Crie um arquivo `.env` na raiz:
 
 ```env
-VITE_FORM_ID=seu_form_id_do_formspree
+REACT_APP_FORM_ID=seu_form_id_do_formspree
 ```
 
 > Crie uma conta gratuita em [formspree.io](https://formspree.io) para obter seu `FORM_ID`.
@@ -77,7 +77,8 @@ VITE_FORM_ID=seu_form_id_do_formspree
 | Projeto        | Descrição                                            | Stack                    | Link |
 | -------------- | ---------------------------------------------------- | ------------------------ | ---- |
 | Vitta Terapias | Site profissional para clínica de massagens terapêuticas | React, Vite, CSS Modules | [Ver site](https://vitta-terapias.vercel.app) |
-| Artelli Artesatanos | Site profissional para encomenda de artesatanos | React, Vite, PostgreSql, Typescript, Axios, FastAPI, JWT | [Ver site](https://artelli-frontend.onrender.com/) ||
+| Artelli Artesanato | E-commerce full stack para encomenda de peças artesanais | React, Vite, TypeScript, FastAPI, PostgreSQL, JWT, Axios | [Ver site](https://artelli-frontend.onrender.com/) |
+| Landing de Infoproduto | Landing de venda para curso online, com Pixel da Meta e foco em performance mobile | WordPress, Elementor, PHP, Node.js | [Ver código](https://github.com/bbigelli/demo-landing-infoproduto) |
 
 ---
 
