@@ -79,7 +79,8 @@ REACT_APP_FORM_ID=seu_form_id_do_formspree
 | -------------- | ---------------------------------------------------- | ------------------------ | ---- |
 | Vitta Terapias | Site profissional para clínica de massagens terapêuticas | React, Vite, CSS Modules | [Ver site](https://vitta-terapias.vercel.app) |
 | Artelli Artesanato | E-commerce full stack para encomenda de peças artesanais | React, Vite, TypeScript, FastAPI, PostgreSQL, JWT, Axios | [Ver site](https://artelli-frontend.onrender.com/) |
-| Landing de Infoproduto | Landing de venda para curso online, com Pixel da Meta e foco em performance mobile | WordPress, Elementor, PHP, Node.js | [Ver código](https://github.com/bbigelli/demo-landing-infoproduto) |
+| Landing de Infoproduto | Landing de venda para curso online, com Pixel da Meta e foco em performance mobile | WordPress, Elementor, PHP, Node.js | [Ver site](https://demo-landing-infoproduto-site-dist.vercel.app/) |
+| Site Institucional de Clínica | Site de 4 páginas com navegação, mapa e WhatsApp; menu sem JavaScript | WordPress, Elementor, PHP, Node.js | [Ver site](https://demo-site-institucional-site-dist.vercel.app/) |
 
 ---
 

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="Capa do projeto: site institucional de clinica em WordPress e Elementor">
+  <title>Site institucional — WordPress + Elementor</title>
+
+  <!--
+    Proporcao 2.40, igual a do slot do modal do portfolio (721x300), entao
+    la a capa aparece inteira. No card a proporcao e 1.83 e o cover corta
+    cerca de 142px de cada lado, por isso todo o conteudo essencial fica
+    entre x=150 e x=1050.
+    Paleta teal, a mesma do site, para o card contrastar com o da landing
+    de infoproduto, que e laranja.
+  -->
+
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="art2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="sh2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#bg2)"/>
+
+  <g opacity="0.07">
+    <circle cx="1090" cy="70" r="180" fill="#5eead4"/>
+    <circle cx="120" cy="460" r="150" fill="#0f766e"/>
+  </g>
+
+  <!-- ===================== janela principal: home ===================== -->
+  <g filter="url(#sh2)">
+    <rect x="168" y="76" width="600" height="356" rx="10" fill="#ffffff"/>
+
+    <!-- barra do navegador -->
+    <rect x="168" y="76" width="600" height="26" rx="10" fill="#e2e8f0"/>
+    <rect x="168" y="92" width="600" height="10" fill="#e2e8f0"/>
+    <circle cx="187" cy="89" r="4" fill="#94a3b8"/>
+    <circle cx="201" cy="89" r="4" fill="#94a3b8"/>
+    <circle cx="215" cy="89" r="4" fill="#94a3b8"/>
+
+    <!-- cabecalho do site com navegacao: o que distingue este projeto -->
+    <rect x="168" y="102" width="600" height="34" fill="#ffffff"/>
+    <rect x="168" y="135" width="600" height="1" fill="#e2e8f0"/>
+    <rect x="192" y="113" width="86" height="11" rx="5" fill="#0f172a"/>
+    <g fill="#94a3b8">
+      <rect x="360" y="115" width="34" height="7" rx="3.5"/>
+      <rect x="406" y="115" width="32" height="7" rx="3.5"/>
+      <rect x="450" y="115" width="42" height="7" rx="3.5"/>
+      <rect x="504" y="115" width="38" height="7" rx="3.5"/>
+    </g>
+    <rect x="648" y="108" width="98" height="22" rx="6" fill="#0f766e"/>
+
+    <!-- hero -->
+    <rect x="192" y="166" width="104" height="13" rx="6" fill="#f0fdfa"/>
+    <rect x="192" y="192" width="250" height="16" rx="5" fill="#0f172a"/>
+    <rect x="192" y="216" width="206" height="16" rx="5" fill="#0f172a"/>
+    <rect x="192" y="248" width="236" height="7" rx="3.5" fill="#cbd5e1"/>
+    <rect x="192" y="262" width="198" height="7" rx="3.5" fill="#cbd5e1"/>
+
+    <!-- dois botoes lado a lado -->
+    <rect x="192" y="286" width="112" height="30" rx="7" fill="#0f766e"/>
+    <rect x="312" y="286" width="96" height="30" rx="7" fill="none" stroke="#0f766e" stroke-width="2"/>
+
+    <!-- imagem do hero -->
+    <rect x="470" y="166" width="274" height="150" rx="10" fill="url(#art2)"/>
+
+    <!-- tres cards -->
+    <g>
+      <rect x="192" y="338" width="172" height="62" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <rect x="376" y="338" width="172" height="62" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <rect x="560" y="338" width="184" height="62" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <rect x="206" y="350" width="18" height="18" rx="5" fill="#f0fdfa"/>
+      <rect x="390" y="350" width="18" height="18" rx="5" fill="#f0fdfa"/>
+      <rect x="574" y="350" width="18" height="18" rx="5" fill="#f0fdfa"/>
+      <g fill="#cbd5e1">
+        <rect x="206" y="378" width="104" height="6" rx="3"/>
+        <rect x="206" y="388" width="72" height="6" rx="3"/>
+        <rect x="390" y="378" width="104" height="6" rx="3"/>
+        <rect x="390" y="388" width="72" height="6" rx="3"/>
+        <rect x="574" y="378" width="104" height="6" rx="3"/>
+        <rect x="574" y="388" width="72" height="6" rx="3"/>
+      </g>
+    </g>
+
+    <!-- rodape escuro -->
+    <rect x="168" y="408" width="600" height="24" fill="#134e4a"/>
+    <rect x="168" y="422" width="600" height="10" rx="0" fill="#134e4a"/>
+  </g>
+
+  <!-- ===================== celular: menu aberto ===================== -->
+  <g filter="url(#sh2)">
+    <rect x="812" y="54" width="200" height="392" rx="24" fill="#0f172a"/>
+    <rect x="821" y="63" width="182" height="374" rx="18" fill="#ffffff"/>
+    <rect x="884" y="70" width="56" height="6" rx="3" fill="#0f172a"/>
+
+    <!-- cabecalho com botao de menu -->
+    <rect x="838" y="92" width="72" height="10" rx="5" fill="#0f172a"/>
+    <rect x="952" y="88" width="34" height="18" rx="5" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+    <g stroke="#0f172a" stroke-width="2" stroke-linecap="round">
+      <line x1="960" y1="93" x2="978" y2="93"/>
+      <line x1="960" y1="97" x2="978" y2="97"/>
+      <line x1="960" y1="101" x2="978" y2="101"/>
+    </g>
+    <rect x="821" y="114" width="182" height="1" fill="#e2e8f0"/>
+
+    <!-- painel do menu aberto: os 4 itens -->
+    <rect x="821" y="115" width="182" height="134" fill="#ffffff"/>
+    <rect x="838" y="128" width="88" height="8" rx="4" fill="#0f766e"/>
+    <rect x="838" y="152" width="70" height="8" rx="4" fill="#0f172a"/>
+    <rect x="838" y="176" width="84" height="8" rx="4" fill="#0f172a"/>
+    <rect x="838" y="200" width="76" height="8" rx="4" fill="#0f172a"/>
+    <rect x="838" y="222" width="148" height="20" rx="6" fill="#0f766e"/>
+    <rect x="821" y="249" width="182" height="1" fill="#e2e8f0"/>
+
+    <!-- conteudo abaixo do menu -->
+    <rect x="838" y="266" width="142" height="12" rx="5" fill="#0f172a"/>
+    <rect x="838" y="286" width="112" height="12" rx="5" fill="#0f172a"/>
+    <rect x="838" y="312" width="148" height="78" rx="9" fill="url(#art2)"/>
+
+    <!-- whatsapp flutuante -->
+    <circle cx="964" cy="404" r="17" fill="#075e54"/>
+    <path d="M964 395c-5 0-9 4-9 8.9 0 1.6.4 3.1 1.3 4.5l-1.4 4.9 5-1.4c1.3.7 2.7 1.1 4.1 1.1 5 0 9-4 9-8.9s-4-9.1-9-9.1zm0 16.2c-1.3 0-2.5-.4-3.6-1l-.3-.2-3 .8.8-2.9-.2-.3c-.7-1.2-1.1-2.4-1.1-3.8 0-4.1 3.3-7.4 7.3-7.4 4.1 0 7.4 3.3 7.4 7.4s-3.3 7.3-7.3 7.3z" fill="#ffffff"/>
+  </g>
+
+  <!-- ===================== selos ===================== -->
+  <g font-family="Inter, Segoe UI, Roboto, sans-serif">
+    <rect x="168" y="26" width="228" height="34" rx="17" fill="#0f766e"/>
+    <text x="282" y="48" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle">WordPress + Elementor</text>
+
+    <rect x="408" y="26" width="142" height="34" rx="17" fill="none" stroke="#2a6a64" stroke-width="2"/>
+    <text x="479" y="48" fill="#99f6e4" font-size="14" font-weight="700" text-anchor="middle">4 paginas</text>
+
+    <rect x="562" y="26" width="206" height="34" rx="17" fill="none" stroke="#2a6a64" stroke-width="2"/>
+    <text x="665" y="48" fill="#99f6e4" font-size="14" font-weight="700" text-anchor="middle">Menu sem JavaScript</text>
+
+    <text x="168" y="474" fill="#5f8c88" font-size="13">Clinica ficticia, criada como peca de portfolio</text>
+  </g>
+</svg>

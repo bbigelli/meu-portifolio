@@ -1,6 +1,7 @@
 import vittaImage from '../assets/images/Site-Vitta.webp';
 import artelliImage from '../assets/images/Site-Artelli.webp';
 import landingInfoprodutoImage from '../assets/images/Capa-Landing-Infoproduto.svg';
+import siteInstitucionalImage from '../assets/images/Capa-Site-Institucional.svg';
 
 export const projetos = [
   {
@@ -34,6 +35,17 @@ export const projetos = [
     imagem: landingInfoprodutoImage,
     repo: "https://github.com/bbigelli/demo-landing-infoproduto",
     demo: "https://demo-landing-infoproduto-site-dist.vercel.app/",
+    data: "2026"
+  },
+  {
+    id: 4,
+    titulo: "Site Institucional de Clínica — WordPress + Elementor",
+    descricao: "Site de quatro páginas para clínica de fisioterapia, com navegação, mapa e WhatsApp. Cabeçalho e rodapé construídos em PHP porque o construtor de temas do Elementor é recurso pago, e menu de celular sem uma linha de JavaScript. PageSpeed 100 e acessibilidade 100 no celular.",
+    descricaoCompleta: "Peça de demonstração que responde ao segundo pedido mais comum de quem contrata freelancer para WordPress: site institucional de profissional liberal. São quatro páginas — Início, Sobre, Serviços e Contato — com navegação entre elas, mapa incorporado, horário de funcionamento e WhatsApp como canal principal de agendamento. A direção visual é deliberadamente oposta à da landing de infoproduto: teal frio, muito espaço em branco e tom sóbrio, porque clínica de saúde vende confiança e não impulso. Duas peças no mesmo portfólio só demonstram versatilidade se forem distintas de verdade, e não o mesmo layout repintado. Três decisões definem o projeto. A primeira: o cabeçalho e o rodapé são montados no functions.php e injetados por hook, em vez de construídos no Elementor. O construtor de temas é recurso Pro, e repetir o cabeçalho dentro de cada um dos quatro templates seria pior de manter. O menu do celular é um elemento details nativo do HTML, sem uma linha de JavaScript: o navegador já entrega o acordeão, o gerenciamento de foco e o anúncio de estado para leitor de tela. O site não carrega nenhum script próprio. A segunda: a copy foi escrita dentro das regras do COFFITO e do CFM para publicidade em saúde, que proíbem promessa de resultado, sensacionalismo e uso de imagem de paciente. Não há promessa de cura nem de prazo de recuperação, não há antes e depois, não há depoimento de paciente, o aviso de que a indicação depende de avaliação individual aparece na página de serviços e no rodapé de todas, e a responsável técnica está identificada com registro. Uma clínica que publica um site fora dessas regras responde ao conselho, então conhecer o limite faz parte do serviço. A terceira: o functions.php imprime dados estruturados JSON-LD do tipo MedicalClinic, com endereço, telefone e horário de funcionamento. Para clínica de bairro a busca local é o que traz paciente, e é o detalhe que separa um site bonito de um site que funciona. Os quatro templates do Elementor são gerados por um script Node sem dependências, que valida o que produz e reprova o build se alguma das sete armadilhas do Elementor identificadas no projeto anterior voltar a aparecer — entre elas o nome diferente do controle de classe em container e widget, e o fato de o kit global do plugin pintar todo texto com um cinza que reprova no contraste da WCAG. A publicação é feita como site estático: o export bruto de 2.934 arquivos e 131MB é reduzido por um script a 22 arquivos e 0,5MB, o que elimina o TinyMCE e os blocos do Gutenberg que a página nunca carrega. A auditoria de contraste foi feita na página renderizada, não só na paleta: 333 elementos de texto testados nas quatro páginas, nenhuma falha. A clínica, os profissionais e o endereço são fictícios, e o site declara isso no rodapé de todas as páginas.",
+    tecnologias: ["WordPress", "Elementor", "PHP", "CSS", "Node.js", "Schema.org", "WCAG 2.1", "Vercel"],
+    imagem: siteInstitucionalImage,
+    repo: "https://github.com/bbigelli/demo-site-institucional",
+    demo: "https://demo-site-institucional-site-dist.vercel.app/",
     data: "2026"
   }
 ];
