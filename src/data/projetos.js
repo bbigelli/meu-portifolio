@@ -33,6 +33,7 @@ export const projetos = [
     tecnologias: ["WordPress", "Elementor", "PHP", "CSS", "JavaScript", "Node.js", "Meta Pixel", "WCAG 2.1"],
     imagem: landingInfoprodutoImage,
     repo: "https://github.com/bbigelli/demo-landing-infoproduto",
+    demo: "https://demo-landing-infoproduto-site-dist.vercel.app/",
     data: "2026"
   }
 ];
